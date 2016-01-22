@@ -1,0 +1,8 @@
+<div>
+    <h1>{{content}}</h1>
+    <form>
+        <input type="file" ngf-select ng-model="picFile" name="file"
+               accept="image/*" ngf-max-size="2MB" required>
+        <input type="submit" ng-click="uploadFile()" >
+    </form>
+</div>
